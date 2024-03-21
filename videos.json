@@ -1,0 +1,8 @@
+{
+    "videos":[
+        "https://player.vimeo.com/progressive_redirect/playback/372335193/rendition/360p/file.mp4?loc=external&oauth2_token_id=1747418641&signature=0b187b6f1318b8ee23e1b60a42f222c7de7a3364bd82ca715285e4fb563c6fd4",
+        "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4",
+        "https://player.vimeo.com/progressive_redirect/playback/371817283/rendition/360p/file.mp4?loc=external&oauth2_token_id=1747418641&signature=f2096b95f52be2a25bf806f803abeb988f22cea0a56d8a87b130ae083662c969",
+        "https://player.vimeo.com/progressive_redirect/playback/474243696/rendition/360p/file.mp4?loc=external&oauth2_token_id=1747418641&signature=d72e0fcc2f8fef525e713c1334db4866b1ae5ad75a5cc3fe35a6f11c620a5c54"
+    ]
+}

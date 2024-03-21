@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Video</title>
+    <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+    <script defer src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <input type="text" id="m3u8Input" placeholder="Introduce la URL del nuevo archivo M3U8">
+    <button id="loadM3u8">Cargar M3U8</button>
+    <video id="myvideo" class="video-js" controls preload="auto" width="640" height="264">
+        <source src="https://video03.logicahost.com.br/brtvnetwork/brtvnetwork/playlist.m3u8"
+            type="application/x-mpegURL">
+        <!-- <source src="https://video05.logicahost.com.br/ararunatv/ararunatv/playlist.m3u8 " type="application/x-mpegURL"> -->
+    </video>
+    <button id="generateM3u8">Generar M3U8</button>
+    <br>
+    <a id="downloadLink" style="display: none;">Descargar M3U8</a>
+    <br>
+    <!-- <a href="new_video.m3u8" download="nuevo_video.m3u8">Descargar M3U8</a> -->
+    <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+</body>
+
+</html>
